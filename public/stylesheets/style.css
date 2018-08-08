@@ -1,0 +1,210 @@
+a {
+  color: #efedef;
+}
+
+a:hover {
+  color: #efedef;
+  text-decoration: underline;
+}
+
+body {
+  background-color: #bdc1cc;
+  margin: 0 0 1.5em; /* bottom = footer height */
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.navbar {
+    position:sticky;
+    top: 0;
+    width: 100%;
+    height: 3em;
+    z-index:10;
+    background-color: #777a82;
+    color: #efedef;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  background-color: #4D4167;
+  color: #efedef;
+  border-radius: 25px;
+}
+
+.navbar-brand {
+  color: #fff;
+  padding: 5px;
+}
+
+.navbar-brand:hover {
+  background-color: #4D4167;
+  color: #efedef;
+  border-radius: 25px;
+}
+
+.jumbotron {
+  background-image: url(../images/laptop-desk-dark.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 40em;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.jumbotron-btn {
+  background-color: #858995;
+  font-weight: bold;
+  color: #efedef;
+  border: none;
+  border-radius: 0%;
+  margin-top: 1em;
+  border: 2px solid #858995;
+  border-radius: 25px;
+}
+
+.jumbotron-btn:hover {
+  background-color: #4D4167;
+  color: #efedef;
+  font-weight: bold;
+  border: 2px solid #4D4167;
+}
+
+.jumbotron-badge-title {
+  color: #efedef;
+  text-align: left;
+  background-color: #4D4167;
+  border: 2px solid #4D4167;
+  border-radius: 25px;
+  margin-right: 19em;
+}
+
+.carousel-slide {
+  height: 4.5em;
+  text-align: center;
+  background-color: #4D4167;
+  color: #efedef;
+  padding-top: 1em;
+}
+
+.first-landing-section {
+  padding: 0.75em;
+  height: 4em;
+  background-color: #858995;
+  color: #efedef;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.second-landing-section {
+  padding: 0.75em;
+  height: 28em;
+  background-color: #bdc1cc;
+  align-content: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.second-landing-text {
+  border: 0.25em solid #efedef;
+  background-color: #4D4167;
+  border-radius: 25px;
+  padding: 2.75em;
+  color: #efedef;
+  text-align: center;
+}
+
+.third-landing-section {
+  padding: 0.75em;
+  height: 25em;
+  background-color: #bdc1cc;
+  align-content: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+  color: #efedef;
+}
+
+.third-landing-text {
+  border: 0.25em solid #efedef;
+  border-radius: 25px;
+  padding: 2.75em;
+  margin-left: 2em;
+  margin-right: 2em;
+  color: #efedef;
+  background-color: #4D4167;
+  text-align: left;
+}
+
+.third-landing-text:h1 {
+  text-align: center;
+}
+
+.first-pricing-section{
+  padding: 0.75em;
+  height: 28em;
+  background-color: #bdc1cc;
+  align-content: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.first-pricing-table{
+  border: 0.25em solid #efedef;
+  background-color: #4D4167;
+  border-radius: 25px;
+  padding: 3em;
+  color: #efedef;
+  text-align: left;
+  width: 100%;
+
+  border-spacing: 2em;
+  border-collapse: separate;
+}
+
+table, th, td {
+  color: #efedef;
+  border: 0.25em solid #efedef;
+  padding: 1em;
+}
+
+th {
+  background-color: #efedef;
+  color: #4d4167;
+  text-align: center;
+}
+
+.first-client-special {
+  background-color: #0d8918;
+}
+
+.first-faq-text{
+  border: 0.25em solid #efedef;
+  background-color: #4D4167;
+  border-radius: 25px;
+  padding: 2.75em;
+  color: #efedef;
+  text-align: left;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.80em;
+  background-color: #777a82;
+  color: #efedef;
+  height: 1.75em;
+  text-align: center;
+}
