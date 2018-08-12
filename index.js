@@ -2,6 +2,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => res.render('landing'))
+app.get('/about', (req, res) => res.render('about'))
 app.get('/faq', (req, res) => res.render('faq'))
 app.get('/pricing', (req, res) => res.render('pricing'))
 app.get('/process', (req, res) => res.render('process'))

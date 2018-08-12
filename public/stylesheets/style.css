@@ -1,14 +1,14 @@
 a {
-  color: #efedef;
+  color: #202021;
 }
 
 a:hover {
-  color: #efedef;
+  color: #202021;
   text-decoration: underline;
 }
 
 body {
-  background-color: #929caa;
+  background-color: #efedef;
   margin: 0 0 1.5em; /* bottom = footer height */
   font-family: 'PT Serif', serif;
 }
@@ -24,8 +24,7 @@ body {
 }
 
 .nav-link {
-  color: white;
-  margin-right: 0.5em;
+  color: efedef;
 }
 
 .nav-link:hover {
@@ -47,7 +46,7 @@ body {
   background-image: url(../images/laptop-book.jpg);
   background-size: cover;
   background-position: center center;
-  height: 49em;
+  height: 45.3em;
   margin-bottom: 0;
   border-radius: 0;
 }
@@ -106,7 +105,7 @@ body {
 .second-landing-section {
   padding: 0.75em;
   height: 28em;
-  background-color: #929caa;
+  background-color: #efedef;
   align-content: center;
   padding-left: 20%;
   padding-right: 20%;
@@ -123,6 +122,28 @@ body {
   margin-bottom: 3em;
 }
 
+.bio-header {
+  color: efedef;
+  font-size: 3em;
+  text-align: center;
+  background-color: #0877c0;
+  border-radius: 25px;
+  border-left: 0em solid #0877c0;
+  border-right: 0em solid #0877c0;
+}
+
+.bio-image {
+  margin-top: -12em;
+  margin-left: -7em;
+  max-width: 30em;
+  max-height: 40em;
+}
+
+.bio-text {
+  color: #202021;
+  text-align: justify;
+}
+
 .process-container {
   padding: 0.75em;
   height: 25em;
@@ -136,7 +157,7 @@ body {
   text-align: center;
   font-size: 4em;
   border: 0.1em solid #f9fbff;
-  background-color: #202021;
+  background-color: #080a0c;
   padding: 0.1em;
   margin-bottom: -1.5em;
 }
@@ -157,7 +178,7 @@ body {
 .first-pricing-section{
   padding: 0.75em;
   height: 28em;
-  background-color: #929caa;
+  background-color: #efedef;
   align-content: center;
   padding-left: 20%;
   padding-right: 20%;
@@ -166,7 +187,7 @@ body {
 }
 
 .first-pricing-table{
-  border: 0.25em solid #efedef;
+  border: 0.5em solid #929caa;
   background-color: #202021;
   border-radius: 25px;
   padding: 3em;
@@ -201,13 +222,13 @@ th {
 }
 
 .process-image {
-  max-width: 40em;
-  max-height: 40em;
+  max-width: 30em;
+  max-height: 30em;
   border: 0.1em solid #efedef;
 }
 
 .first-faq-text{
-  border: 0.25em solid #efedef;
+  border: 0.5em solid #929caa;
   background-color: #080a0c;
   border-radius: 25px;
   padding: 2.75em;
@@ -243,7 +264,7 @@ th {
   bottom: 0;
   width: 100%;
   font-size: 0.80em;
-  background-color: #423e75;
+  background-color: #080a0c;
   color: #efedef;
   height: 1.75em;
   text-align: center;
