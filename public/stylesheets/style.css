@@ -46,14 +46,14 @@ body {
   background-image: url(../images/laptop-book.jpg);
   background-size: cover;
   background-position: center center;
-  height: 45.3em;
+  height: 37vw;
   margin-bottom: 0;
   border-radius: 0;
 }
 
 .jumbotron-btn {
   background-color: #bdc1cb;
-  font-size: 2em;
+  font-size: 2.5vw;
   font-weight: bold;
   color: #000;
   border: none;
@@ -62,7 +62,7 @@ body {
   border-left: 1em solid #bdc1cb;
   border-right: 1em solid #bdc1cb;
   border-radius: 25px;
-  margin-left: 8em;
+  margin-left: 6em;
 }
 
 .jumbotron-btn:hover {
@@ -74,32 +74,33 @@ body {
 }
 
 .jumbotron-badge-title {
+  font-size: 5vw;
   color: #efedef;
   text-align: center;
   background-color: #080a0c;
   border: 2px solid #080a0c;
   border-radius: 25px;
   padding: 0.5em;
-  margin-right: 16em;
-  margin-left: 1.5em;
-  margin-top: 1.6em;
+  margin-right: 9em;
+  margin-top: 0.1em;
 }
 
 .carousel-slide {
-  height: 4.5em;
+  height: 6vw;
   text-align: center;
   background-color: #bdc1cb;
   color: #000;
-  padding-top: 1em;
+  padding-top: 1vw;
+  font-size: 1vw;
 }
 
 .first-landing-section {
-  padding: 0.75em;
-  height: 4em;
+  padding: 1vw;
+  height: 6vw;
   background-color: #004da4;
   color: #efedef;
   text-align: center;
-  padding-bottom: 1em;
+  padding-bottom: 1vw;
 }
 
 .second-landing-section {
@@ -124,7 +125,7 @@ body {
 
 .bio-header {
   color: efedef;
-  font-size: 3em;
+  font-size: 3vw;
   text-align: center;
   background-color: #0877c0;
   border-radius: 25px;
@@ -203,7 +204,7 @@ table, th, td {
   padding: 1em;
   text-align: center;
   margin-bottom: 3em;
-  font-size: 1.1em;
+  font-size: 1vw;
 }
 
 th {
