@@ -6,6 +6,7 @@ app.get('/about', (req, res) => res.render('about'))
 app.get('/faq', (req, res) => res.render('faq'))
 app.get('/pricing', (req, res) => res.render('pricing'))
 app.get('/process', (req, res) => res.render('process'))
+app.get('/portfolio', (req, res) => res.render('portfolio'))
 
 app.set('view engine', 'ejs');
 
