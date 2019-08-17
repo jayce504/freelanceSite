@@ -1,4 +1,5 @@
 a {
+<<<<<<< HEAD
   color: #4464ad;
 }
 
@@ -31,12 +32,47 @@ body {
   font-size: 1.25em;
   padding: 0 50px;
   color: #000;
+=======
+  color: #000;
+}
+
+a:hover {
+  color: #000;
+}
+
+.btn {
+border: 1px solid #0031a2;
+border-radius: 5%;
+background-color: #0031a2;
+color: #fff;
+font-size: 2em;
+margin-left: 20%;
+margin-top: 1%;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar{
+  background-color: #000;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar-brand {
+  color:#fff;
+>>>>>>> 9d890124d774ed4cc02c9f5d241cad7931670b4b
 }
 
 .jumbotron {
-  background-image: url(../images/laptop-book.jpg);
-  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url(../images/laptop-book.jpg);
+  height: calc(92vh);
   background-position: center center;
+<<<<<<< HEAD
   height: 90vh;
   margin-bottom: 0;
   border-radius: 0;
@@ -277,17 +313,55 @@ th {
   font-weight: bold;
   border-left: 1em solid #004da4;
   border-right: 1em solid #004da4;
+=======
+  margin-bottom: 0em;
+  border-radius: 0%;
+}
+
+.jumbotron-badge-title {
+  margin-top: 13%;
+  color: #fff;
+}
+
+.process-image {
+  height: 50%;
+  width: 80%;
+}
+
+.primary-color-step {
+  text-align: center;
+}
+
+.secondary-color-step {
+  text-align: center;
+}
+
+.portfolio-image {
+  width: 90%;
+  height: 50%;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+.text {
+  color: #fff;
+  margin-left: 13%;
+>>>>>>> 9d890124d774ed4cc02c9f5d241cad7931670b4b
 }
 
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100%;
+<<<<<<< HEAD
   font-size: 0.80vw;
   background-color:#4A005B;
   color: #efedef;
   height: 1.75em;
+=======
+  height: 20px;
+  line-height: 20px;
+  background-color: #000;
+  color: #fff;
+>>>>>>> 9d890124d774ed4cc02c9f5d241cad7931670b4b
   text-align: center;
 }
 
