@@ -1,5 +1,5 @@
 a {
-  color: #5f0196;
+  color: #4464ad;
 }
 
 a:hover {
@@ -8,48 +8,45 @@ a:hover {
 }
 
 body {
-  background-color: #efedef;
+  background-color: #fff;
   margin: 0 0 1.5em; /* bottom = footer height */
-  font-family: 'PT Serif', serif;
+  font-family: 'Darker Grotesque', sans-serif;
 }
 
 .navbar {
-    position:sticky;
-    top: 0;
-    width: 100%;
-    height: 4vw;
-    z-index:10;
-    background-color: #080a0c;
-    color: #efedef;
-}
-
-.nav-link {
-  color: efedef;
-}
-
-.nav-link:hover {
-  color: #efedef;
-  border-bottom: 2px solid #efedef;
-  transition: all 0.1s ease-in;
+  background-color: #4A005B;
 }
 
 .navbar-brand {
-  color: #fff;
-  padding: 5px;
+  color: #4A005B;
+  font-size: 1.75em;
 }
 
-.navbar-brand:hover {
-  background-color: #004da4;
-  color: #efedef;
+.nav-item {
+  list-style-type: none;
+  color: #000;
+}
+
+.navbar-nav > li {
+  font-size: 1.25em;
+  padding: 0 50px;
+  color: #000;
 }
 
 .jumbotron {
   background-image: url(../images/laptop-book.jpg);
   background-size: cover;
   background-position: center center;
-  height: 37vw;
+  height: 90vh;
   margin-bottom: 0;
   border-radius: 0;
+}
+
+#jumbotron-content {
+  margin-top: 10%;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column;
 }
 
 .jumbotron-btn {
@@ -57,41 +54,40 @@ body {
   font-size: 2.5vw;
   font-weight: bold;
   color: #000;
-  border: none;
-  border-radius: 0%;
-  margin-top: 1em;
-  border-left: 1em solid #bdc1cb;
-  border-right: 1em solid #bdc1cb;
+  border: 2px solid #bdc1cb;
   border-radius: 25px;
-  margin-left: 5.5em;
+  margin-top: 2%;
+  margin-left: 20%;
 }
 
 .jumbotron-btn:hover {
   background-color: #004da4;
+  border: 2px solid #004da4;
+  border-radius: 25px;
   color: #efedef;
   font-weight: bold;
-  border-left: 1em solid #004da4;
-  border-right: 1em solid #004da4;
 }
 
 .jumbotron-badge-title {
-  font-size: 5vw;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  width: 50%;
+  font-size: 5em;
   color: #efedef;
   text-align: center;
   background-color: #080a0c;
   border: 2px solid #080a0c;
   border-radius: 25px;
   padding: 0.5em;
-  margin-right: 9em;
-  margin-top: 0.1em;
 }
 
 .carousel-slide {
-  height: 6vw;
+  height: 10%;
   text-align: center;
   background-color: #bdc1cb;
   color: #000;
-  padding-top: 1vw;
+  padding:0.7vw;
   font-size: 1vw;
 }
 
@@ -114,8 +110,9 @@ body {
 
 .second-landing-section {
   padding: 0.75em;
-  height: 28em;
-  background-color: #efedef;
+  height: 28vh;
+  width: 100%;
+  background-color: #fff;
   align-content: center;
   padding-left: 20%;
   padding-right: 20%;
@@ -133,25 +130,27 @@ body {
 }
 
 .bio-header {
-  color: efedef;
+  color: #fff;
   font-size: 3vw;
   text-align: center;
-  background-color: #0877c0;
-  border-radius: 25px;
-  border-left: 0em solid #0877c0;
-  border-right: 0em solid #0877c0;
+  background-color: #2B2D42;
+  border-left: 0em solid #2B2D42;
+  border-right: 0em solid #2B2D42;
 }
 
 .bio-image {
-  margin-top: -12em;
-  margin-left: -7em;
-  max-width: 30em;
-  max-height: 40em;
+  max-width: 22em;
+  max-height: 22em;
 }
 
 .bio-text {
   color: #202021;
   text-align: justify;
+  font-size: 1.3em;
+}
+
+.cell-text {
+  vertical-align: center;
 }
 
 .process-container {
@@ -165,17 +164,17 @@ body {
 
 .process-header {
   text-align: center;
-  font-size: 4vw;
+  font-size: 2.5vw;
   border: 0.1em solid #000;
   background-color: #080a0c;
   padding: 0.1em;
-  margin-bottom: -1.5em;
+  margin-bottom: -3%;
 }
 
 .primary-color-step {
-  background-color: #0877c0;
-  border-left: 0em solid #0877c0;
-  border-right: 0em solid #0877c0;
+  background-color: #2B2D42;
+  border-left: 0em solid #2B2D42;
+  border-right: 0em solid #2B2D42;
 }
 
 .secondary-color-step {
@@ -209,11 +208,17 @@ body {
 }
 
 table, th, td {
+  width: 100%;
   color: #efedef;
   padding: 1em;
   text-align: center;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
   font-size: 1vw;
+}
+
+tr {
+  display: flex;
+  justify-content: space-around;
 }
 
 th {
@@ -226,15 +231,21 @@ th {
   background-color: #0d8918;
 }
 
-.process-text {
+.cell-text {
   text-align: center;
-  margin-bottom: 0px;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  font-size: 1.75em;
 }
 
 .process-image {
   max-width: 30em;
   max-height: 30em;
-  border: 0.1em solid #efedef;
+  box-shadow: 10px 5px 5px #bdbdbd;
+}
+
+#primary-process-image {
+  box-shadow: 10px 5px 5px #121212;
 }
 
 .first-faq-text{
@@ -246,21 +257,21 @@ th {
   text-align: left;
 }
 
-.faq-btn {
-  background-color: #bdc1cb;
+#faq-btn {
+  background-color: #2B2D42;
   font-size: 2vw;
   font-weight: bold;
-  color: #000;
+  color: #bdbdbd;
   border: none;
   border-radius: 0%;
   margin-top: 1em;
-  border-left: 1em solid #bdc1cb;
-  border-right: 1em solid #bdc1cb;
+  border-left: 1em solid #2B2D42;
+  border-right: 1em solid #2B2D42;
   border-radius: 25px;
   margin-left: 10em;
 }
 
-.faq-btn:hover {
+#faq-btn:hover {
   background-color: #004da4;
   color: #efedef;
   font-weight: bold;
@@ -274,8 +285,40 @@ th {
   bottom: 0;
   width: 100%;
   font-size: 0.80vw;
-  background-color: #080a0c;
+  background-color:#4A005B;
   color: #efedef;
   height: 1.75em;
   text-align: center;
+}
+
+@media only screen and (max-width: 870px) {
+
+  #jumbotron-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .jumbotron-badge-title {
+    margin-left: 5%;
+    width: 50%;
+    font-size: 3.5em;
+    color: #efedef;
+    text-align: center;
+    background-color: #080a0c;
+    border: 2px solid #080a0c;
+    border-radius: 25px;
+    padding: 0.5em;
+  }
+
+  .jumbotron-btn {
+    background-color: #bdc1cb;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #000;
+    border: 2px solid #bdc1cb;
+    border-radius: 25px;
+    margin-top: 2%;
+    margin-left: 16%;
+  }
+
 }
