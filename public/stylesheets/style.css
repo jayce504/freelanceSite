@@ -1,5 +1,4 @@
 a {
-<<<<<<< HEAD
   color: #4464ad;
 }
 
@@ -10,16 +9,15 @@ a:hover {
 
 body {
   background-color: #fff;
-  margin: 0 0 1.5em; /* bottom = footer height */
   font-family: 'Darker Grotesque', sans-serif;
 }
 
 .navbar {
-  background-color: #4A005B;
+  background-color: #4a005b;
 }
 
 .navbar-brand {
-  color: #4A005B;
+  color: #4a005b;
   font-size: 1.75em;
 }
 
@@ -32,47 +30,13 @@ body {
   font-size: 1.25em;
   padding: 0 50px;
   color: #000;
-=======
-  color: #000;
-}
-
-a:hover {
-  color: #000;
-}
-
-.btn {
-border: 1px solid #0031a2;
-border-radius: 5%;
-background-color: #0031a2;
-color: #fff;
-font-size: 2em;
-margin-left: 20%;
-margin-top: 1%;
-}
-
-.flex-container {
-  display: flex;
-  justify-content: center;
-}
-
-.navbar{
-  background-color: #000;
-}
-
-.navbar a {
-  color: #fff;
-}
-
-.navbar-brand {
-  color:#fff;
->>>>>>> 9d890124d774ed4cc02c9f5d241cad7931670b4b
 }
 
 .jumbotron {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url(../images/laptop-book.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)),
+    url(../images/laptop-book.jpg);
   height: calc(92vh);
   background-position: center center;
-<<<<<<< HEAD
   height: 90vh;
   margin-bottom: 0;
   border-radius: 0;
@@ -123,7 +87,7 @@ margin-top: 1%;
   text-align: center;
   background-color: #bdc1cb;
   color: #000;
-  padding:0.7vw;
+  padding: 0.7vw;
   font-size: 1vw;
 }
 
@@ -132,7 +96,7 @@ margin-top: 1%;
   width: 75%;
   margin-left: 12.5%;
   margin-right: 12.5%;
-  margin-top: 2.0vw;
+  margin-top: 2vw;
 }
 
 .first-landing-section {
@@ -144,7 +108,7 @@ margin-top: 1%;
   padding-bottom: 1vw;
 }
 
-.second-landing-section {
+.bio-section {
   padding: 0.75em;
   height: 28vh;
   width: 100%;
@@ -169,14 +133,15 @@ margin-top: 1%;
   color: #fff;
   font-size: 3vw;
   text-align: center;
-  background-color: #2B2D42;
-  border-left: 0em solid #2B2D42;
-  border-right: 0em solid #2B2D42;
+  background-color: #2b2d42;
+  border-left: 0em solid #2b2d42;
+  border-right: 0em solid #2b2d42;
 }
 
 .bio-image {
-  max-width: 22em;
-  max-height: 22em;
+  margin-top: 10%;
+  max-width: 26em;
+  max-height: 26em;
 }
 
 .bio-text {
@@ -191,9 +156,7 @@ margin-top: 1%;
 
 .process-container {
   padding: 0.75em;
-  height: 25em;
   background-color: #efedef;
-  align-content: center;
   text-align: center;
   color: #efedef;
 }
@@ -203,27 +166,27 @@ margin-top: 1%;
   font-size: 2.5vw;
   border: 0.1em solid #000;
   background-color: #080a0c;
-  padding: 0.1em;
+  padding: 0.3em;
   margin-bottom: -3%;
+  color: #fff;
 }
 
 .primary-color-step {
-  background-color: #2B2D42;
-  border-left: 0em solid #2B2D42;
-  border-right: 0em solid #2B2D42;
+  background-color: #2b2d42;
+  border-left: 0em solid #2b2d42;
+  border-right: 0em solid #2b2d42;
 }
 
 .secondary-color-step {
   background-color: #efedef;
-  color: 080a0c;
+  color: #080a0c;
   border-left: 0em solid #efedef;
   border-right: 0em solid #efedef;
 }
 
-.first-pricing-section{
+.first-pricing-section {
   padding: 0.75em;
   height: 28em;
-  background-color: #efedef;
   align-content: center;
   padding-left: 20%;
   padding-right: 20%;
@@ -231,7 +194,7 @@ margin-top: 1%;
   margin-top: 1em;
 }
 
-.first-pricing-table{
+.first-pricing-table {
   border: 0.5em solid #929caa;
   background-color: #202021;
   border-radius: 25px;
@@ -243,13 +206,19 @@ margin-top: 1%;
   border-collapse: separate;
 }
 
-table, th, td {
+table,
+th,
+td {
   width: 100%;
   color: #efedef;
   padding: 1em;
   text-align: center;
-  margin-bottom: 1em;
   font-size: 1vw;
+}
+
+table {
+  margin-bottom: 1.5em;
+  margin-top: -1em;
 }
 
 tr {
@@ -264,7 +233,7 @@ th {
 }
 
 .first-client-special {
-  background-color: #0d8918;
+  background-color: #004da4;
 }
 
 .cell-text {
@@ -284,7 +253,7 @@ th {
   box-shadow: 10px 5px 5px #121212;
 }
 
-.first-faq-text{
+.first-faq-text {
   border: 0.5em solid #929caa;
   background-color: #080a0c;
   border-radius: 25px;
@@ -294,15 +263,15 @@ th {
 }
 
 #faq-btn {
-  background-color: #2B2D42;
+  background-color: #2b2d42;
   font-size: 2vw;
   font-weight: bold;
   color: #bdbdbd;
   border: none;
   border-radius: 0%;
   margin-top: 1em;
-  border-left: 1em solid #2B2D42;
-  border-right: 1em solid #2B2D42;
+  border-left: 1em solid #2b2d42;
+  border-right: 1em solid #2b2d42;
   border-radius: 25px;
   margin-left: 10em;
 }
@@ -313,69 +282,25 @@ th {
   font-weight: bold;
   border-left: 1em solid #004da4;
   border-right: 1em solid #004da4;
-=======
-  margin-bottom: 0em;
-  border-radius: 0%;
-}
-
-.jumbotron-badge-title {
-  margin-top: 13%;
-  color: #fff;
-}
-
-.process-image {
-  height: 50%;
-  width: 80%;
-}
-
-.primary-color-step {
-  text-align: center;
-}
-
-.secondary-color-step {
-  text-align: center;
-}
-
-.portfolio-image {
-  width: 90%;
-  height: 50%;
-  margin-top: 2%;
-  margin-left: 5%;
-}
-
-.text {
-  color: #fff;
-  margin-left: 13%;
->>>>>>> 9d890124d774ed4cc02c9f5d241cad7931670b4b
 }
 
 .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
   width: 100%;
-<<<<<<< HEAD
-  font-size: 0.80vw;
-  background-color:#4A005B;
+  font-size: 0.8vw;
+  background-color: #4a005b;
   color: #efedef;
   height: 1.75em;
-=======
-  height: 20px;
-  line-height: 20px;
-  background-color: #000;
-  color: #fff;
->>>>>>> 9d890124d774ed4cc02c9f5d241cad7931670b4b
   text-align: center;
 }
 
-@media only screen and (max-width: 870px) {
-
-  #jumbotron-content {
-    display: flex;
-    flex-direction: column;
-  }
-
+@media only screen and (max-width: 1000px) {
   .jumbotron-badge-title {
     margin-left: 5%;
     width: 50%;
-    font-size: 3.5em;
+    font-size: 3em;
     color: #efedef;
     text-align: center;
     background-color: #080a0c;
@@ -386,13 +311,210 @@ th {
 
   .jumbotron-btn {
     background-color: #bdc1cb;
-    font-size: 2.5em;
+    font-size: 2.25em;
     font-weight: bold;
     color: #000;
     border: 2px solid #bdc1cb;
     border-radius: 25px;
     margin-top: 2%;
     margin-left: 16%;
+  }
+
+  .bio-header {
+    font-size: 2.5em;
+  }
+
+  .bio-text {
+    font-size: 3em;
+  }
+
+  .bio-image {
+    margin-top: 15%;
+    max-width: 30em;
+    max-height: 60em;
+  }
+
+  .carousel-inner {
+    margin-top: 20vh;
+  }
+
+  table,
+  th,
+  td {
+    width: 100%;
+    color: #efedef;
+    padding: 1em;
+    text-align: center;
+    font-size: 2vw;
+  }
+
+  table {
+    margin-bottom: 1.5em;
+    margin-top: -2.15em;
+  }
+
+  tr {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  th {
+    background-color: #929caa;
+    color: #000;
+    text-align: center;
+  }
+
+  .first-pricing-section {
+    padding: 0.75em;
+    height: 50em;
+    align-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+  }
+
+  .first-pricing-table {
+    margin-top: 0.15em;
+    font-size: 10em;
+    height: 75vh;
+    border: 0.1em solid #929caa;
+    background-color: #202021;
+    border-radius: 25px;
+    padding: 0.25em;
+    color: #efedef;
+    text-align: left;
+    width: 100%;
+    border-spacing: 2em;
+    border-collapse: separate;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.75vw;
+    background-color: #4a005b;
+    color: #efedef;
+    height: 1.75em;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-height: 896px) { 
+
+  .jumbotron-badge-title {
+    margin-left: 5%;
+    width: 50%;
+    font-size: 3em;
+    color: #efedef;
+    text-align: center;
+    background-color: #080a0c;
+    border: 2px solid #080a0c;
+    border-radius: 25px;
+    padding: 0.5em;
+  }
+
+  .jumbotron-btn {
+    background-color: #bdc1cb;
+    font-size: 2.25em;
+    font-weight: bold;
+    color: #000;
+    border: 2px solid #bdc1cb;
+    border-radius: 25px;
+    margin-top: 2%;
+    margin-left: 16%;
+  }
+
+  .bio-header {
+    font-size: 3em;
+  }
+
+  .bio-text {
+    font-size: 1em;
+  }
+
+  .bio-image {
+    margin-top: 15%;
+    max-width: 12em;
+    max-height: 12em;
+  }
+
+  .carousel-inner {
+    margin-top: 20vh;
+  }
+
+  table,
+  th,
+  td {
+    width: 100%;
+    color: #efedef;
+    padding-bottom: 3%;
+    text-align: center;
+    font-size: 2.1vw;
+  }
+
+  table {
+    margin-bottom: 1.5em;
+  }
+
+  tr {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  th {
+    background-color: #929caa;
+    color: #000;
+    text-align: center;
+  }
+
+  .process-header {
+    font-size: 3em;
+    margin-bottom: -0.75em;
+  }
+
+  .first-pricing-section {
+    padding: 0.75em;
+    height: 25em;
+    align-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+  }
+
+  .first-pricing-table {
+    margin-top: 0.15em;
+    font-size: 10em;
+    height: 25vh;
+    border: 0.1em solid #929caa;
+    background-color: #202021;
+    border-radius: 25px;
+    padding: 0.25em;
+    color: #efedef;
+    text-align: left;
+    width: 100%;
+    border-spacing: 2em;
+    border-collapse: separate;
+  }
+
+  .carousel-inner {
+    width: 42em;
+    height: 50em;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 2vw;
+    background-color: #4a005b;
+    color: #efedef;
+    height: 1.75em;
+    text-align: center;
   }
 
 }
